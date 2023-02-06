@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('layout.master');
 });
 
+//resource route
 Route::resource('user', UserController::class);
