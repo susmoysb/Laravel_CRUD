@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #0f0c27;
+    background-color: #faf5ef;
+}
+header{
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(67, 164, 209);
+    text-align: center;
+    padding: 15px 0;
+}
+.user_create{
+    background-color: white;
+    box-shadow: 0px 10px 10px 10px #888888;
+    border-radius: 20px;
+}
+form label{
+    font-weight: 600;
+}
+.form-check-label{
+    font-size: 13px;
+    font-weight: 500;
+}
+.form-header h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+input, select{
+    box-shadow: 0px 5px 10px 1px #888888;
+}
+.btn_edit, .btn_delete, .btn_show{
+    font-size: 18px;
+}
+.btn_edit{
+    color: green;
+}
+.btn_delete{
+    color: rgb(191, 24, 24);
+    background-color: #faf5ef;
+    border: none;
+    padding: 0;
+}
+.btn_delete:hover{
+    color: red;
+    /* background-color: #0f0c27; */
+}
+.btn_show{
+    color: #0f0c27;
+}
